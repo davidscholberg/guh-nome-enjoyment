@@ -1,0 +1,8 @@
+{
+  "name": "Guh-nome Enjoyment",
+  "description": "Personal modifications to the Gnome Desktop Environment",
+  "uuid": "guh-nome-enjoyment@davidscholberg.github.com",
+  "shell-version": [
+    "45"
+  ]
+}

@@ -1,0 +1,9 @@
+/*
+The following is for reducing the width of the clock button on the panel. This is useful for the
+Dash to Panel extension because by default the clock button has a ton of extra padding that doesn't
+look good when placed next to other panel buttons.
+*/
+#panel .clock-display {
+    -natural-hpadding: 0px;
+    -minimum-hpadding: 0px;
+}
