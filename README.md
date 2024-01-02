@@ -17,3 +17,11 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 [gnome]: https://www.gnome.org/
 [just-perfection]: https://extensions.gnome.org/extension/3843/just-perfection/
 [dash-to-panel]:  https://extensions.gnome.org/extension/1160/dash-to-panel/
+
+### Installation
+
+```bash
+git clone git@github.com:davidscholberg/guh-nome-enjoyment.git && \
+cd guh-nome-enjoyment && \
+./install.sh
+```
