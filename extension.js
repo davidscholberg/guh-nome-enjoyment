@@ -33,6 +33,8 @@ const windowDemandsAttentionFocusDisable = () => {
 
   replaceSignalHandler("window-demands-attention", originalHandler);
   replaceSignalHandler("window-marked-urgent", originalHandler);
+
+  console.log("disabled window demands attention focus");
 };
 
 // Update the "window-demands-attention" and "window-marked-urgent" signal
@@ -49,4 +51,6 @@ const windowDemandsAttentionFocusEnable = () => {
 
   replaceSignalHandler("window-demands-attention", focusHandler);
   replaceSignalHandler("window-marked-urgent", focusHandler);
+
+  console.log("enabled window demands attention focus");
 };
