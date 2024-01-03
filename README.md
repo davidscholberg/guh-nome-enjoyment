@@ -4,6 +4,7 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 
 ### Features
 
+* Changes the alt-tab keybinding from "switch applications" to the "switch windows" functionality, which allows you to alt-tab between windows from the same application.
 * Changes the default handler for urgent windows to focus the window instead of just sending a notification.
     * This feature can be found in the [Just Perfection][just-perfection] extension, but since that extension has significant feature overlap with [Dash to Panel][dash-to-panel] (an extension I consider essential for my own Gnome installations), I decided to reimplement the feature here and ditch Just Perfection.
 * Removes extra padding around the panel clock widget.
@@ -11,7 +12,6 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 
 ### Planned Features
 
-* Replace some default key bindings (including changing alt-tab to the better behavior that's bewilderingly not bound to anything).
 * Set preferred [Dash to Panel][dash-to-panel] settings.
 
 [gnome]: https://www.gnome.org/
