@@ -12,6 +12,7 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 
 ### Planned Features
 
+* Disable the hot corner.
 * Set preferred [Dash to Panel][dash-to-panel] settings.
 
 [gnome]: https://www.gnome.org/
