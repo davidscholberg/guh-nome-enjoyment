@@ -4,16 +4,10 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 
 ### Features
 
-* Changes the alt-tab keybinding from "switch applications" to the "switch windows" functionality, which allows you to alt-tab between windows from the same application.
 * Changes the default handler for urgent windows to focus the window instead of just sending a notification.
     * This feature can be found in the [Just Perfection][just-perfection] extension, but since that extension has significant feature overlap with [Dash to Panel][dash-to-panel] (an extension I consider essential for my own Gnome installations), I decided to reimplement the feature here and ditch Just Perfection.
 * Removes extra padding around the panel clock widget.
     * Since [Dash to Panel][dash-to-panel] places the clock widget right next to other widgets, the inexplicable extra padding that the clock widget has becomes painfully apparent, so the custom stylesheet in this extension removes the extra padding.
-
-### Planned Features
-
-* Disable the hot corner.
-* Set preferred [Dash to Panel][dash-to-panel] settings.
 
 [gnome]: https://www.gnome.org/
 [just-perfection]: https://extensions.gnome.org/extension/3843/just-perfection/
