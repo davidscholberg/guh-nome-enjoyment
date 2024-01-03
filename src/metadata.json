@@ -9,5 +9,6 @@
   "session-modes": [
     "user",
     "unlock-dialog"
-  ]
+  ],
+  "version-name": "1.0.0"
 }

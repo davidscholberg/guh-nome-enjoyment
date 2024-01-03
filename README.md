@@ -9,14 +9,14 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 * Removes extra padding around the panel clock widget.
     * Since [Dash to Panel][dash-to-panel] places the clock widget right next to other widgets, the inexplicable extra padding that the clock widget has becomes painfully apparent, so the custom stylesheet in this extension removes the extra padding.
 
-[gnome]: https://www.gnome.org/
-[just-perfection]: https://extensions.gnome.org/extension/3843/just-perfection/
-[dash-to-panel]:  https://extensions.gnome.org/extension/1160/dash-to-panel/
-
 ### Installation
 
 ```bash
 git clone git@github.com:davidscholberg/guh-nome-enjoyment.git && \
 cd guh-nome-enjoyment && \
-./install.sh
+./scripts/install.sh
 ```
+
+[gnome]: https://www.gnome.org/
+[just-perfection]: https://extensions.gnome.org/extension/3843/just-perfection/
+[dash-to-panel]:  https://extensions.gnome.org/extension/1160/dash-to-panel/

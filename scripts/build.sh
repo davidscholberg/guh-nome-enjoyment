@@ -9,9 +9,7 @@ gnome-extensions pack \
     --extra-source="logger.js" \
     --extra-source="signals.js" \
     --extra-source="window_focus.js" \
+    --extra-source="../README.md" \
     --extra-source="../UNLICENSE" \
     --out-dir="build" \
     src
-gnome-extensions install \
-    --force \
-    build/guh-nome-enjoyment@davidscholberg.github.com.shell-extension.zip
