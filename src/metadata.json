@@ -4,5 +4,10 @@
   "uuid": "guh-nome-enjoyment@davidscholberg.github.com",
   "shell-version": [
     "45"
+  ],
+  "url": "https://github.com/davidscholberg/guh-nome-enjoyment",
+  "session-modes": [
+    "user",
+    "unlock-dialog"
   ]
 }
