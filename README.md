@@ -6,7 +6,7 @@ This project is a [Gnome][gnome] extension that contains all of my personal modi
 
 * Changes the default handler for urgent windows to focus the window instead of just sending a notification.
     * This feature can be found in the [Just Perfection][just-perfection] extension, but since that extension has significant feature overlap with [Dash to Panel][dash-to-panel] (an extension I consider essential for my own Gnome installations), I decided to reimplement the feature here and ditch Just Perfection.
-* Hide the accessibility indicator on the panel regardless of any accessibility settings being active.
+* Hides the accessibility indicator on the panel regardless of any accessibility settings being active.
 * Removes extra padding around the panel clock widget.
     * Since [Dash to Panel][dash-to-panel] places the clock widget right next to other widgets, the inexplicable extra padding that the clock widget has becomes painfully apparent, so the custom stylesheet in this extension removes the extra padding.
 
