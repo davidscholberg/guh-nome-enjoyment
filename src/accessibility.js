@@ -15,6 +15,7 @@ export class Accessibility {
       let atIndicator = Main.panel.statusArea["a11y"];
       atIndicator._syncMenuVisibility = this.originalSyncMenuVisibility;
       this.originalSyncMenuVisibility = null;
+      atIndicator._queueSyncMenuVisibility();
     }
     logger.log("disabled hide accessibility panel indicator");
   }
@@ -24,6 +25,7 @@ export class Accessibility {
     let atIndicator = Main.panel.statusArea["a11y"];
     this.originalSyncMenuVisibility = atIndicator._syncMenuVisibility;
     atIndicator._syncMenuVisibility = moddedSyncMenuVisibility;
+    atIndicator._queueSyncMenuVisibility();
     logger.log("enabled hide accessibility panel indicator");
   }
 }
