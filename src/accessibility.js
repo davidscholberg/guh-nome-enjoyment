@@ -26,6 +26,9 @@ export class Accessibility {
     this.originalSyncMenuVisibility = atIndicator._syncMenuVisibility;
     atIndicator._syncMenuVisibility = moddedSyncMenuVisibility;
     atIndicator._queueSyncMenuVisibility();
+    // We call the sync again 1 second later to fix a bug where the button is still not hidden when
+    // we log back in from the lock screen.
+    setTimeout(() => atIndicator._queueSyncMenuVisibility(), 1000);
     logger.log("enabled hide accessibility panel indicator");
   }
 }
