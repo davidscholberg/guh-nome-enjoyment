@@ -3,7 +3,7 @@
   "description": "Personal modifications to the Gnome Desktop Environment",
   "uuid": "guh-nome-enjoyment@davidscholberg.github.com",
   "shell-version": [
-    "45", "46"
+    "45", "46", "47"
   ],
   "url": "https://github.com/davidscholberg/guh-nome-enjoyment",
   "session-modes": [
